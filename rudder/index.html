@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rudder Support</title>
+    <meta
+      name="description"
+      content="Support and setup instructions for Rudder, a Safari extension that controls YouTube playback from any tab."
+    />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <img src="icon.svg" alt="Rudder app icon" width="72" height="72" />
+        <div>
+          <h1>Rudder Support</h1>
+          <p class="tagline">
+            A Safari extension that controls YouTube playback from any tab.
+          </p>
+        </div>
+      </header>
+
+      <p>
+        Rudder adds a remote control to your Safari toolbar. Open a video on
+        YouTube, switch to any other tab, and control playback from the popup
+        or with a keyboard shortcut — without going back to the video.
+      </p>
+
+      <h2 id="setup">Setting up</h2>
+      <p>
+        Rudder is a Safari extension, so it has to be enabled in Safari once
+        before you can use it.
+      </p>
+      <ol class="steps">
+        <li>Launch the Rudder app once after installing it.</li>
+        <li>
+          Open <strong>Safari &rsaquo; Settings &rsaquo; Extensions</strong>
+          and turn on <strong>Rudder</strong>.
+        </li>
+        <li>
+          Allow access to <strong>youtube.com</strong> when Safari asks. Rudder
+          cannot read any other site.
+        </li>
+        <li>Open a video on youtube.com.</li>
+        <li>
+          Click the Rudder button in the Safari toolbar, or press
+          <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd>.
+        </li>
+      </ol>
+
+      <h2>What you can control</h2>
+      <p>
+        The popup shows the current video's title, channel and thumbnail, plus
+        a seek bar with elapsed and remaining time. From there you can:
+      </p>
+      <ul>
+        <li>Play and pause</li>
+        <li>Skip back or forward 10 seconds</li>
+        <li>Jump to the previous or next video</li>
+        <li>Scrub anywhere in the timeline</li>
+        <li>Adjust volume or mute</li>
+        <li>Change playback speed from 0.5&times; to 2&times;</li>
+      </ul>
+      <p>Shorts are supported too, including moving through the feed.</p>
+
+      <h2>Keyboard shortcuts</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Action</th>
+              <th>Shortcut</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Open the remote</td>
+              <td><kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd></td>
+            </tr>
+            <tr>
+              <td>Play / pause</td>
+              <td><kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd></td>
+            </tr>
+            <tr>
+              <td>Seek backward 10 seconds</td>
+              <td><kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>&larr;</kbd></td>
+            </tr>
+            <tr>
+              <td>Seek forward 10 seconds</td>
+              <td><kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>&rarr;</kbd></td>
+            </tr>
+            <tr>
+              <td>Next video</td>
+              <td>Not assigned by default</td>
+            </tr>
+            <tr>
+              <td>Previous video</td>
+              <td>Not assigned by default</td>
+            </tr>
+            <tr>
+              <td>Mute / unmute</td>
+              <td>Not assigned by default</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        You can change any of these, or assign the unassigned ones, in
+        <strong>Safari &rsaquo; Settings &rsaquo; Extensions</strong> by
+        clicking <strong>Keyboard Shortcuts</strong>.
+      </p>
+
+      <h2>Frequently asked questions</h2>
+
+      <details class="faq">
+        <summary>I opened the app and nothing happened.</summary>
+        <p>
+          That is expected. The app is only a container for the extension —
+          all of Rudder's features live in Safari. Follow the steps in
+          <a href="#setup">Setting up</a> above to enable it.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>The popup says "Nothing playing".</summary>
+        <p>
+          Rudder controls videos on youtube.com only. Make sure a YouTube tab
+          is open with a video loaded, and that you granted Rudder access to
+          youtube.com in Safari's extension settings.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>The toolbar button is missing.</summary>
+        <p>
+          Right-click Safari's toolbar, choose
+          <strong>Customize Toolbar</strong>, and drag the Rudder button into
+          place. If it is not listed, the extension is not enabled yet.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>A keyboard shortcut does nothing.</summary>
+        <p>
+          Another app or another Safari extension may already use that
+          combination. Open
+          <strong>Safari &rsaquo; Settings &rsaquo; Extensions &rsaquo;
+          Keyboard Shortcuts</strong> and assign a different one.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>Does Rudder work with videos on other sites?</summary>
+        <p>
+          No. Rudder requests access to youtube.com and nothing else, by
+          design. It cannot see or control any other website.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>What data does Rudder collect?</summary>
+        <p>
+          None. Rudder has no accounts, no analytics and no network requests of
+          its own. Your preferences are stored locally in Safari and never
+          leave your Mac.
+        </p>
+      </details>
+
+      <h2>Requirements</h2>
+      <p>macOS 13 Ventura or later, with Safari.</p>
+
+      <h2>Contact</h2>
+      <div class="contact">
+        <p>
+          Still stuck, or found a bug? Send the details — your macOS and Safari
+          versions, and what you were doing — and you will get a reply.
+        </p>
+        <p>
+          <a href="mailto:moisesbenites3@gmail.com">moisesbenites3@gmail.com</a>
+        </p>
+      </div>
+
+      <footer>
+        <p><a href="privacy/">Privacy Policy</a> &middot; <a href="/">mbenites.com</a></p>
+        <p>
+          Rudder is an independent extension and is not affiliated with,
+          endorsed by, or sponsored by YouTube or Google.
+        </p>
+        <p>Copyright &copy; 2026 Moises Benites Castro. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>

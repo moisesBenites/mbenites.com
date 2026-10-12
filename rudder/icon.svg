@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="100" x2="0" y2="924">
+      <stop offset="0" stop-color="#16406A"/>
+      <stop offset="1" stop-color="#0A2240"/>
+    </linearGradient>
+    <linearGradient id="brass" gradientUnits="userSpaceOnUse" x1="0" y1="140" x2="0" y2="884">
+      <stop offset="0" stop-color="#F7D58B"/>
+      <stop offset="1" stop-color="#D9993F"/>
+    </linearGradient>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+  <g>
+    <g stroke="url(#brass)" stroke-width="46" stroke-linecap="round">
+      <line x1="512.0" y1="442.0" x2="512.0" y2="194.0"/><line x1="561.5" y1="462.5" x2="736.9" y2="287.1"/><line x1="582.0" y1="512.0" x2="830.0" y2="512.0"/><line x1="561.5" y1="561.5" x2="736.9" y2="736.9"/><line x1="512.0" y1="582.0" x2="512.0" y2="830.0"/><line x1="462.5" y1="561.5" x2="287.1" y2="736.9"/><line x1="442.0" y1="512.0" x2="194.0" y2="512.0"/><line x1="462.5" y1="462.5" x2="287.1" y2="287.1"/>
+    </g>
+    <g fill="url(#brass)">
+      <circle cx="512.0" cy="190.0" r="42"/><circle cx="739.7" cy="284.3" r="42"/><circle cx="834.0" cy="512.0" r="42"/><circle cx="739.7" cy="739.7" r="42"/><circle cx="512.0" cy="834.0" r="42"/><circle cx="284.3" cy="739.7" r="42"/><circle cx="190.0" cy="512.0" r="42"/><circle cx="284.3" cy="284.3" r="42"/>
+    </g>
+    <circle cx="512" cy="512" r="232" fill="none" stroke="url(#brass)" stroke-width="62"/>
+    <circle cx="512" cy="512" r="92" fill="url(#brass)"/>
+    <circle cx="512" cy="512" r="34" fill="#0F2E50"/>
+  </g>
+</svg>

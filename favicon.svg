@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="256">
+      <stop offset="0" stop-color="#16406A"/>
+      <stop offset="1" stop-color="#0A2240"/>
+    </linearGradient>
+    <linearGradient id="brass" gradientUnits="userSpaceOnUse" x1="0" y1="80" x2="0" y2="190">
+      <stop offset="0" stop-color="#F7D58B"/>
+      <stop offset="1" stop-color="#D9993F"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#bg)"/>
+  <text x="128" y="128" fill="url(#brass)" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif"
+        font-size="112" font-weight="600" text-anchor="middle" dominant-baseline="central" letter-spacing="2">MB</text>
+</svg>
